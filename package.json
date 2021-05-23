@@ -1,6 +1,6 @@
 {
   "name": "is-japanese",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "is-japanese is a library helps you to check if a string only contains Japanese charactors.",
   "main": "index.js",
   "scripts": {
