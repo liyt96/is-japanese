@@ -1,0 +1,28 @@
+{
+  "name": "is-japanese",
+  "version": "0.0.1",
+  "description": "is-japanese is a library helps you to check if a string only contains Japanese charactors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "benchmark": "node benchmark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyt96/is-japanese.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Yuetian Li <daily.wel@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/liyt96/is-japanese/issues"
+  },
+  "homepage": "https://github.com/liyt96/is-japanese#readme"
+}
