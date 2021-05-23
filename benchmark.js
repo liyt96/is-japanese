@@ -3,14 +3,14 @@ const suite = new Benchmark.Suite;
 const isJapanese = require('./')
 
 suite
-  .add('isJapanese("今夜の月は綺麗ですね今夜の月は綺麗")', function () {
-    isJapanese("今夜の月は綺麗ですね今夜の月は綺麗");
+  .add('isJapanese("今夜の月は綺麗ですね")', function () {
+    isJapanese("今夜の月は綺麗ですね");
   })
-  .add('isJapanese("ss今夜の月は綺麗ですね今夜の月は綺麗")', function () {
-    isJapanese("ss今夜の月は綺麗ですね今夜の月は綺麗");
+  .add('isJapanese("ss今夜の月は綺麗ですね")', function () {
+    isJapanese("ss今夜の月は綺麗ですね");
   })
-  .add('isJapanese("今夜の月は綺麗ですね今夜の月は綺麗ss")', function () {
-    isJapanese("今夜の月は綺麗ですね今夜の月は綺麗ss");
+  .add('isJapanese("今夜の月は綺麗ですねss")', function () {
+    isJapanese("今夜の月は綺麗ですねss");
   })
   .add('isJapanese(chars1000) true', function () {
     const chars1000 = 'ありがとございました'.repeat(100)
