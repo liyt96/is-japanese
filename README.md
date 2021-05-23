@@ -4,6 +4,8 @@
 
 An npm library checks if the content *only* contains Japanese.
 
+Check the library's npm page [here](https://www.npmjs.com/package/is-japanese).
+
 This project is heavily based on the [is-chinese](https://github.com/alsotang/is-chinese) library.
 
 
