@@ -7,12 +7,14 @@ describe('test/is_japanese.test.js', function () {
   it('isJapanese function testing', function () {
     // Genral test
     assert.isTrue(isJapanese('おはよう'));
-    assert.isFalse(isJapanese('おはようss'))
-    assert.isFalse(isJapanese('ss'))
+    assert.isFalse(isJapanese('おはようaa'))
+    assert.isFalse(isJapanese('aa'))
     assert.isTrue(isJapanese("おはよう?"))
-    assert.isFalse(isJapanese('ssおはよう'))
-    assert.isFalse(isJapanese('おはようss'))
-    // News test (sampled form Yahoo Japan News)
+    assert.isTrue(isJapanese('こんばんは、今夜の月は綺麗ですね。'))
+    assert.isFalse(isJapanese('aaこんばんは、今夜の月は綺麗ですね。'))
+    assert.isFalse(isJapanese('こんばんは、今夜の月は綺麗ですねaa。'))
+    assert.isTrue(isJapanese('\u6771\u4eac'))
+    // News test (Sampled form Yahoo Japan News)
     assert.isTrue(isJapanese('一転、宣言発令で「もうめちゃくちゃ」政府内でも混乱?'));
     assert.isTrue(isJapanese('北海道などへのまん延防止措置の方針が、緊急事態宣言の発令に切り替わった背景に、何があったのだろうか。'));
     assert.isTrue(isJapanese('政府関係者は、「分科会で政府の諮問がひっくり返ったのは初めてだ」と驚きを示す一方、菅首相の周辺は、「それだけ事態が深刻だということだ」と指摘している。'));
