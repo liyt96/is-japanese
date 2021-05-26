@@ -1,7 +1,7 @@
 {
   "name": "is-japanese",
-  "version": "1.0.1",
-  "description": "is-japanese is a library helps you to check if a string only contains Japanese charactors.",
+  "version": "1.0.2",
+  "description": "is-japanese is a library helps you to check if a string only contains Japanese characters.",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -12,7 +12,11 @@
     "url": "git+https://github.com/liyt96/is-japanese.git"
   },
   "keywords": [
-    "npm"
+    "npm",
+    "japanese",
+    "string",
+    "character",
+    "unicode"
   ],
   "author": "Yuetian Li <daily.wel@hotmail.com>",
   "license": "MIT",
