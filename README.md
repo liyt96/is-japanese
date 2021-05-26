@@ -23,7 +23,7 @@ This library tolerates Hiragana, Katakana, Kanji, common half and full Japanese 
 common Japanese symbols, and number 0-9.
 
 The general standard is based on modern Japanese phrasings we read in online paltforms like Yahoo 
-Japan. More examples from Yahoo News inculdes:
+Japan. More examples from Yahoo News inculde:
 
 ```
 var isJapanese = require("is-japanese");
